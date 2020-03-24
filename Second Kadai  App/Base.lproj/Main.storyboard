@@ -64,12 +64,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uXb-13-b0y">
-                                <rect key="frame" x="50" y="176.5" width="314" height="1.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7jO-Rg-oPQ">
                                 <rect key="frame" x="50" y="207" width="314" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -90,10 +84,8 @@
                             <constraint firstItem="7jO-Rg-oPQ" firstAttribute="leading" secondItem="iuG-BA-ob3" secondAttribute="leading" constant="50" id="5wL-gU-bkA"/>
                             <constraint firstItem="iuG-BA-ob3" firstAttribute="trailing" secondItem="MjT-eg-KND" secondAttribute="trailing" constant="100" id="9xO-8n-jZb"/>
                             <constraint firstItem="iuG-BA-ob3" firstAttribute="trailing" secondItem="MjT-eg-KND" secondAttribute="trailing" constant="100" id="R14-Ss-ONi"/>
-                            <constraint firstItem="iuG-BA-ob3" firstAttribute="trailing" secondItem="uXb-13-b0y" secondAttribute="trailing" constant="50" id="SOb-7g-kEA"/>
                             <constraint firstItem="iuG-BA-ob3" firstAttribute="bottom" secondItem="MjT-eg-KND" secondAttribute="bottom" constant="400" id="YCA-b1-hfR"/>
                             <constraint firstItem="MjT-eg-KND" firstAttribute="leading" secondItem="iuG-BA-ob3" secondAttribute="leading" constant="100" id="lAP-fk-WnJ"/>
-                            <constraint firstItem="uXb-13-b0y" firstAttribute="leading" secondItem="iuG-BA-ob3" secondAttribute="leading" constant="50" id="v3p-yV-TYW"/>
                             <constraint firstItem="MjT-eg-KND" firstAttribute="top" secondItem="7jO-Rg-oPQ" secondAttribute="bottom" constant="150" id="xvf-V5-b1M"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iuG-BA-ob3"/>
